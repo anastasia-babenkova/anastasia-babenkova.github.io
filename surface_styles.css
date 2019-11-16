@@ -167,11 +167,11 @@ button {
     border: 1px solid black; 
     border-radius: 20px; 
     margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .contacts-header {
-    display:inline-block; 
-    width: 49%; 
     text-align: center; 
     margin-top: .8em;
 }
@@ -190,18 +190,11 @@ button {
 
 .skills {
     margin-left: 10px;
-    width: 1000px;
 }
 
 .skills p {
     margin-bottom: 7px;
     font-size: 18px;
-}
-
-@media (max-width: 1200px) {
-    .skills p {
-        max-width: 500px;
-    }
 }
 
 .skills b {
