@@ -198,6 +198,12 @@ button {
     font-size: 18px;
 }
 
+@media (max-width: 1200px) {
+    .skills p {
+        max-width: 500px;
+    }
+}
+
 .skills b {
     font-weight: bold !important;
 }
