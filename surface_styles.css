@@ -91,9 +91,15 @@ button {
 }
 
 .email {
-    font-weight: 200;
+    font-weight: 200 !important;
+    margin: 15px 6% 0px;
+    color: white !important;
+}
+
+.email a {
+    font-weight: 200 !important;
     margin: 15px 5% 0px;
-    color: white;
+    color: white !important;
 }
 
 .email-box {
@@ -113,7 +119,7 @@ button {
     background: url('map.png');
     background-size: cover;
     width: 100%;
-    height: 850px;
+    height: 870px;
 }
 
 .general {
@@ -174,6 +180,10 @@ button {
 .contacts-header {
     text-align: center; 
     margin-top: .8em;
+}
+
+.contacts-header a {
+    font-size: 24px;
 }
 
 .general-text {
